@@ -42,21 +42,37 @@
 <p> Heofon Search has: 
   
 Heofon Search,
+
 Heofon Nodes,
+
 Heomaps,
+
 Heonews,
+
 Knarr browser,
+
 Heofon OS 26,
+
 Heofonix AI,
+
 Heofonix Bluelight,
+
 Heomail,
+
 Heopad,
+
 HeoCompose,
+
 Heotranslate,
+
 Lanscript,
+
 Heofon Hub,
+
 Heofeedback,
+
 History of Heofon,
+
 LSS.
 </p>
 
