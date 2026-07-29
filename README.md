@@ -30,7 +30,7 @@
 <p align="center">
   <b>Heofon is a powerful privacy search engine and global hub built to give you the exact results you need.</b> Instead of showing you random links like other sites, Heofon is designed to be vast and accurate, finding the best information from across the web. It features a smart assistant built right into the hub to help you with math, translate Spanish, and solve logic problems. Ask Heofonix anything today!
   
-  
+  #### Heofon is updating the website, and results right now for more information email: heofonsearch.help@outlook.com.
 
 <p align="center">
   The site also features the <b>Heopad</b>, a dedicated space where you can write down notes and save your work instantly. Everything on Heofon is built to be fast, unblocked, and private, so your data stays yours while you explore the digital world. It is the ultimate all-in-one search engine experience.
