@@ -7,21 +7,22 @@ permissions:
   contents: write
 
 jobs:
-  bot:
+  bot-update:
     runs-on: ubuntu-latest
 
     steps:
-      - uses: actions/checkout@v4
+      - name: Download repository
+        uses: actions/checkout@v4
 
       - name: Update file
         run: |
-          echo "Updated on $(date)" >> bot.txt
+          echo "Bot updated this on $(date)" >> bot-update.txt
 
-      - name: Commit
+      - name: Save change
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
-          git add .
-          git commit -m "Bot update" || echo "Nothing to commit"
+          git add bot-update.txt
+          git commit -m "Update by GitHub Actions bot"
           git push
