@@ -36,7 +36,7 @@
   The site also features the <b>Heopad</b>, a dedicated space where you can write down notes and save your work instantly. Everything on Heofon is built to be fast, unblocked, and private, so your data stays yours while you explore the digital world. It is the ultimate all-in-one search engine experience.
 </p>
 
-<h3> How much users does Heofon Search have? Heofon in 5 months has 1,400 users, thank you to the loyal people that search on Heofon, join those 1,400 users around the globe at heofonsearch.zite.so! <h3/>
+<h3> How much users does Heofon Search have? Heofon in 5 months has 1,400 users, thank you to the loyal people that search on Heofon, join those 1,400 users around the globe at https://heofon-global-search.vercel.app/! <h3/>
 
 <h2> What products does Heofon Search have?</h2>
 <p> Heofon Search has: 
@@ -81,7 +81,7 @@ LSS.
 <h2> Official URLs (Disclaimer: we are always updating our products if a URL is old or not working tell us on Heofeedback)</h2>
 <ul>
   <li><b>Knarr (Heofon's Browser):</b> <a href="https://knarr.zite.so/">Heofon Browser</a></li>
-  <li><b>Official Search Engine:</b> <a href="https://heofonsearch.zite.so/">Heofon Global Search</a></li>
+  <li><b>Official Search Engine:</b> <a href="https://heofon-global-search.vercel.app/">Heofon Global Search</a></li>
   <li><b>Official "Why Use Heofon" Article:</b> <a href="https://sites.google.com/kimberly.k12.wi.us/whyuseheofon-com/home">Why Use Heofon?</a></li>
   <li><b>Heofon Home Website:</b> <a href="https://heofonglobalsearch-home.zite.so/">Heofon Home</a></li>
   <li><b>Official Blog:</b> <a href="https://heofonbloghome-com.base44.app">Heofon Blog</a></li>
@@ -192,7 +192,7 @@ We are continuously expanding and working to make Heofon accessible worldwide. F
 
 <h2> Latest Updates</h2>
 <p>
-  </b> Latest: We have just created HeoCompose, and we got 1,400 users and also we are working on a new product named Heobrush and we are almost done!  </b> </b>
+  </b> Latest: We have just created HeoCompose, and we got 1,400 users and also we are working on a new product named Heobrush and we are almost done! We also are creating the new website and search for Heofon!  </b> </b>
 </p>
 <p>
   
@@ -209,7 +209,7 @@ We are continuously expanding and working to make Heofon accessible worldwide. F
   <li>Click <b>Add</b>.</li>
   <li><b>Name:</b> Heofon</li>
   <li><b>Shortcut:</b> heofon</li>
-  <li><b>URL:</b> <code>https://heofonsearch.zite.so/search?q=%s</code></li>
+  <li><b>URL:</b> <code>https://heofon-global-search.vercel.app/search?q=%s</code></li>
 </ol>
 
 <h3><b>Add Heofon to Firefox:</b></h3>
@@ -217,7 +217,7 @@ We are continuously expanding and working to make Heofon accessible worldwide. F
   <li>Open <b>Firefox Settings</b> -> <b>Search</b>.</li>
   <li>Scroll to <b>Search Shortcuts</b> and click <b>Add</b>.</li>
   <li><b>Engine Name:</b> Heofon Global Search Engine</li>
-  <li><b>URL:</b> <code>https://heofonsearch.zite.so/search?q=%s</code></li>
+  <li><b>URL:</b> <code>https://heofon-global-search.vercel.app/search?q=%s</code></li>
 </ol>
 
 <hr>
