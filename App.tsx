@@ -11,31 +11,64 @@ import Settings from "./Settings";
 import About from "./About";
 
 import NavBar from "./NavBar";
-import SpaceBackground from "./SpaceBackground";
 
 
 export default function App() {
   return (
     <BrowserRouter>
-      <div className="min-h-screen">
 
-        <SpaceBackground />
+      <div className="min-h-screen bg-black text-white">
 
         <NavBar />
 
         <Routes>
+
           <Route path="/" element={<Home />} />
-          <Route path="/search" element={<SearchResults />} />
-          <Route path="/heonews" element={<Heonews />} />
-          <Route path="/heotranslate" element={<Heotranslate />} />
-          <Route path="/heopad" element={<Heopad />} />
-          <Route path="/heomaps" element={<Heomaps />} />
-          <Route path="/heofeedback" element={<Heofeedback />} />
-          <Route path="/settings" element={<Settings />} />
-          <Route path="/about" element={<About />} />
+
+          <Route
+            path="/search"
+            element={<SearchResults />}
+          />
+
+          <Route
+            path="/heonews"
+            element={<Heonews />}
+          />
+
+          <Route
+            path="/heotranslate"
+            element={<Heotranslate />}
+          />
+
+          <Route
+            path="/heopad"
+            element={<Heopad />}
+          />
+
+          <Route
+            path="/heomaps"
+            element={<Heomaps />}
+          />
+
+          <Route
+            path="/heofeedback"
+            element={<Heofeedback />}
+          />
+
+          <Route
+            path="/settings"
+            element={<Settings />}
+          />
+
+          <Route
+            path="/about"
+            element={<About />}
+          />
+
         </Routes>
 
       </div>
+
     </BrowserRouter>
   );
 }
