@@ -1,5 +1,4 @@
 import { useNavigate } from "react-router-dom";
-
 import SearchInput from "./SearchInput";
 import TrendingTags from "./TrendingTags";
 import QuickLinks from "./QuickLinks";
@@ -9,18 +8,20 @@ import SocialsSection from "./SocialsSection";
 export default function Home() {
   const navigate = useNavigate();
 
-  const handleSearch = (query: string) => {
+  function handleSearch(query: string) {
     navigate(`/search?q=${encodeURIComponent(query)}`);
-  };
+  }
 
   return (
-    <main className="relative z-10">
-      <div className="min-h-screen flex flex-col items-center justify-center px-4">
+    <main className="relative z-10 min-h-screen">
+
+      <section className="min-h-screen flex flex-col items-center justify-center px-4">
+
         <h1
-          className="text-7xl md:text-8xl lg:text-9xl font-black mb-8 tracking-tighter select-none"
+          className="text-7xl md:text-9xl font-black mb-8 tracking-tight"
           style={{
             background:
-              "linear-gradient(to right, hsl(var(--primary)) 0%, hsl(220, 80%, 65%) 40%, hsl(var(--accent)) 70%, hsl(290, 70%, 65%) 100%)",
+              "linear-gradient(90deg, #00d4ff, #6366f1, #c026d3)",
             WebkitBackgroundClip: "text",
             WebkitTextFillColor: "transparent",
           }}
@@ -28,26 +29,34 @@ export default function Home() {
           Heofon
         </h1>
 
-        <div className="w-full max-w-[750px] flex flex-col items-center">
+        <p className="text-center text-gray-400 mb-8 max-w-xl">
+          Privacy-first global search built for a safer web.
+        </p>
+
+        <div className="w-full max-w-3xl space-y-6">
           <SearchInput onSearch={handleSearch} />
+
           <TrendingTags onTagClick={handleSearch} />
+
           <QuickLinks />
+
           <Stats />
         </div>
-      </div>
+
+      </section>
 
       <SocialsSection />
 
-      <footer className="text-center py-8 text-xs text-muted-foreground border-t border-border/30">
+      <footer className="text-center py-8 text-sm text-gray-400">
         <p className="font-bold">
           Heofon Global Search — Privacy First, Always.
         </p>
 
-        <p className="mt-1 opacity-60">
-          Norwegian-American search engine. We do not track, sell, or store
-          your personal data.
+        <p className="mt-2">
+          Norwegian-American search engine. No tracking. No selling data.
         </p>
       </footer>
+
     </main>
   );
 }
