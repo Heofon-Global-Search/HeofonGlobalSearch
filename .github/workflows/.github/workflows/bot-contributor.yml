@@ -1,4 +1,4 @@
-name: Bot Contributor
+name: Bot
 
 on:
   workflow_dispatch:
@@ -7,22 +7,20 @@ permissions:
   contents: write
 
 jobs:
-  bot-update:
+  update:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Download repository
-        uses: actions/checkout@v4
+      - uses: actions/checkout@v4
 
-      - name: Update file
+      - name: Make change
         run: |
-          echo "Bot updated this on $(date)" >> bot-update.txt
+          echo "Hello from the bot" >> bot.txt
 
-      - name: Save change
+      - name: Commit
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-
-          git add bot-update.txt
-          git commit -m "Update by GitHub Actions bot"
+          git add .
+          git commit -m "Bot contribution"
           git push
