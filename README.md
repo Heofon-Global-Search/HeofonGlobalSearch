@@ -192,7 +192,7 @@ We are continuously expanding and working to make Heofon accessible worldwide. F
 
 <h2> Latest Updates</h2>
 <p>
-  </b> Latest: We have just created HeoCompose, and we got 1,400 users and also we are working on a new product named Heobrush and we are almost done! We also are creating the new website and search for Heofon!  </b> </b>
+  </b> Latest: We have just created HeoCompose, and we got 1,400 users and also we are working on a new product named Heobrush and we are almost done! We also are creating the new website and search for Heofon! We also are trying to make a new domain for Heofon Search.  </b> </b>
 </p>
 <p>
   
