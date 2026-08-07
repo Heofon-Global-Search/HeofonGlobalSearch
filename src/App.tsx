@@ -9,36 +9,15 @@ import SearchResults from "./SearchResults";
 export default function App() {
   return (
     <BrowserRouter>
-      <div>
-        <NavBar />
+      <NavBar />
 
-        <Routes>
-          <Route
-            path="/"
-            element={<Home />}
-          />
-
-          <Route
-            path="/about"
-            element={<About />}
-          />
-
-          <Route
-            path="/settings"
-            element={<Settings />}
-          />
-
-          <Route
-            path="/search"
-            element={<SearchResults />}
-          />
-
-          <Route
-            path="*"
-            element={<Home />}
-          />
-        </Routes>
-      </div>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/about" element={<About />} />
+        <Route path="/settings" element={<Settings />} />
+        <Route path="/search" element={<SearchResults />} />
+        <Route path="*" element={<Home />} />
+      </Routes>
     </BrowserRouter>
   );
 }
