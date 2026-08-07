@@ -9,7 +9,7 @@ import SearchResults from "./SearchResults";
 export default function App() {
   return (
     <BrowserRouter>
-      <div className="min-h-screen">
+      <div>
         <NavBar />
 
         <Routes>
