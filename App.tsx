@@ -3,23 +3,30 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 export default function App() {
   return (
     <BrowserRouter>
-      <div className="min-h-screen bg-black text-white flex items-center justify-center">
-        <Routes>
-          <Route
-            path="*"
-            element={
-              <div className="text-center">
-                <h1 className="text-7xl font-black text-blue-400">
-                  Heofon
-                </h1>
-                <p className="mt-4 text-gray-400">
-                  Website is loading correctly
-                </p>
-              </div>
-            }
-          />
-        </Routes>
-      </div>
+      <Routes>
+        <Route
+          path="*"
+          element={
+            <div style={{
+              background: "black",
+              color: "white",
+              height: "100vh",
+              display: "flex",
+              justifyContent: "center",
+              alignItems: "center",
+              flexDirection: "column"
+            }}>
+              <h1 style={{fontSize: "70px"}}>
+                Heofon
+              </h1>
+
+              <p>
+                App.tsx is working
+              </p>
+            </div>
+          }
+        />
+      </Routes>
     </BrowserRouter>
   );
 }
