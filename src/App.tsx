@@ -1,24 +1,44 @@
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+
+import Home from "./Home";
+import About from "./About";
+import Settings from "./Settings";
+import NavBar from "./NavBar";
+import SearchResults from "./SearchResults";
+
 export default function App() {
   return (
-    <div
-      style={{
-        background: "black",
-        color: "white",
-        height: "100vh",
-        width: "100vw",
-        display: "flex",
-        justifyContent: "center",
-        alignItems: "center",
-        flexDirection: "column"
-      }}
-    >
-      <h1 style={{ fontSize: "70px" }}>
-        Heofon
-      </h1>
+    <BrowserRouter>
+      <div className="min-h-screen">
+        <NavBar />
 
-      <p>
-        React is working
-      </p>
-    </div>
+        <Routes>
+          <Route
+            path="/"
+            element={<Home />}
+          />
+
+          <Route
+            path="/about"
+            element={<About />}
+          />
+
+          <Route
+            path="/settings"
+            element={<Settings />}
+          />
+
+          <Route
+            path="/search"
+            element={<SearchResults />}
+          />
+
+          <Route
+            path="*"
+            element={<Home />}
+          />
+        </Routes>
+      </div>
+    </BrowserRouter>
   );
 }
