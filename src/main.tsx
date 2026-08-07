@@ -1,13 +1,12 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 
+import App from "./App";
+
 ReactDOM.createRoot(
   document.getElementById("root")!
 ).render(
-  <h1 style={{
-    color: "red",
-    fontSize: "60px"
-  }}>
-    TEST FROM MAIN TSX
-  </h1>
+  <React.StrictMode>
+    <App />
+  </React.StrictMode>
 );
