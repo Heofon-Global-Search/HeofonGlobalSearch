@@ -1,3 +1,12 @@
+> [!IMPORTANT]
+>
+> # Heofon is no longer maintained
+>
+> Thank you to everyone who starred, forked, contributed to, and supported Heofon Search. This project was an important part of my journey, and I appreciate everyone who took the time to use or explore it. You are welcome to fork or use it whenever you like.
+>
+> #### Development has moved on to new projects.
+>
+> **March 6, 2026 – August 14, 2026**
 <img width="300" height="300" alt="HeofonGlobalSearchLogo2" src="https://github.com/user-attachments/assets/bd01cf54-e160-48a5-ab70-71c3e7c589ec" />
 
 
